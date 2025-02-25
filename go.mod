@@ -2,8 +2,6 @@ module github.com/zeromicro/goctl-swagger
 
 go 1.21
 
-toolchain go1.23.5
-
 require (
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/urfave/cli/v2 v2.11.0
