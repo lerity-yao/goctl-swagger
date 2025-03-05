@@ -10,7 +10,7 @@ type (
 
 	//注册请求结构
 	RegisterReq {
-		Username string `json:"username,optional" validate:"omitemptyXemail=www"`
+		Username string `json:"username,optional" validate:"email=www"`
 		Password string `validate:"omitempty,phone" json:"password"`
 		Mobile   string `json:"mobile"`
 		MobileX   string `header:"mobileX"  validate:"email,omitempty"`

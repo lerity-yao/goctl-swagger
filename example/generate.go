@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
+	"github.com/lerity-yao/goctl-swagger/generate"
 	"github.com/zeromicro/go-zero/tools/goctl/api/parser"
 	"github.com/zeromicro/go-zero/tools/goctl/plugin"
-	"github.com/zeromicro/goctl-swagger/generate"
 )
 
 func main() {
